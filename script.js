@@ -6,7 +6,7 @@ let cityname= document.getElementById('city');
 
 let btndom= document.getElementById('searchBtn');
 btndom.addEventListener('click' , (evevt)=>{
-      fetch('https://api.weatherapi.com/v1/current.json?key=da73fffc4d7c0769f3694ae28ca7cfd1&q='+cityname.value +' &aqi=yes')
+      fetch('https://api.weatherapi.com/v1/current.json?key=6a49681d7b1a47a7be8124929222601&q='+cityname.value +' &aqi=yes')
       .then(Response =>Response.json())
       .then(data =>{
           //console.log(data);
